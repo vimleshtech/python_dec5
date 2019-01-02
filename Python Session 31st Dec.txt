@@ -1,0 +1,59 @@
+-User Defined Functions(UDF)
+-File Handling
+-Exception Handling
+
+User Defined Functions(UDF)
+=================================
+->Function is set of command or instrutions or statement 
+UseCase of Function:
+->Reusability of source code 
+->Support to modular programing, large/complex task can be written in small set
+->Easy to manage the source code 
+
+There are following types of function:
+i. No argument no return
+	syntax:
+	def welcome():
+		..
+		..
+		..
+
+ii. No argument with return
+	Syntax:
+	def getData():
+		a =11
+		b =343
+		return a,b
+
+	call/invoke to function:
+	x,y = getData()
+iii. Argument with no return
+	Syntax:
+	def add(a,b):
+		c =a+b
+		print(c)
+
+	
+iv. Argument with retrun 
+	Syntax:
+	def sub(a,b):
+		c =a-b
+		return c 
+	
+Other types of function:
+-function of default argument
+	Syntax:
+	def add2(a,b,c=0,d=0):
+		m = a+b+c+d
+		print(m)
+	
+-dynamic argument
+	Syntax:
+	def mul(*a):
+		print(type(a)) #default type is tuple
+			
+			
+		
+-recussive function 
+	
+-anonyms function 
