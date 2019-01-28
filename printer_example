@@ -1,0 +1,24 @@
+#### Example 1: 
+import os, sys import win32print
+
+p = win32print.OpenPrinter (printer_name)
+		printer_name: actual printer name
+
+
+#### Example 2: 
+import os
+os.startfile("C:/Users/TestFile.txt", "print")	
+
+#### Example 3: 
+#Capture show the whole screen::
+
+import pyscreenshot as ImageGrab
+
+# grab fullscreen
+im = ImageGrab.grab()
+
+# save image file
+im.save('screenshot.png')
+
+# show image in a window
+im.show()
